@@ -1,0 +1,21 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+.row{
+  width: 100%;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;
+}
+
+.wrap{
+  padding: 20px;
+}
+
+.cell{
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px;
+}

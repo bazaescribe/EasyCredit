@@ -1,0 +1,35 @@
+.blue-bg{
+  background: #0062ad;
+}
+
+.green-main-bg{
+  background: #1d8735;
+}
+
+.green-min-bg{
+  background: #add683;
+}
+
+.oil-main-bg{
+  background: #333d47;
+}
+
+.oil-min-bg{
+  background: #5c666f;
+}
+
+.white-bg{
+  background: #fff;
+}
+
+.main-txt{
+  color: #333d47;
+}
+
+.white-txt{
+  color: white !important;
+}
+
+.blue-txt{
+  color: black;
+}

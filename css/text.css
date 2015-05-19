@@ -1,0 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body{
+  font-family: "Montserrat"
+}
+
+.left{
+  text-align: left !important;
+}
+
+.center{
+  text-align: center!important;
+}
+
+.right{
+  text-align: right!important;
+}
+
+.justify{
+  text-align: justify!important;
+}
+
+.icon{
+  color: #0062ad;
+}
