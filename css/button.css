@@ -1,0 +1,12 @@
+.ghost{
+  background: rgba(50,50,50, .7);
+  border: 2px solid white;
+  font-size: 25px;
+  padding: 10px 35px 10px 35px;
+  color: white;
+  outline: none;
+}
+
+.ghost:hover{
+  background: rgba(0,98,173, 1);
+}

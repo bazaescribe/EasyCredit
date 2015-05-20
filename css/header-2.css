@@ -2,10 +2,15 @@ header{
   position: fixed;
   top: 0;
   left: 0;
-  padding: 20px;
+  padding: 15px;
   width: 100%;
   background: rgba(255, 255, 255, 0);
   z-index: 20;
+  animation-duration: 4s;
+  -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
 header .logo{
@@ -20,7 +25,7 @@ header .logo img{
 #menu{
   position: absolute;
   color: white;
-  right: 100px;
+  right: 150px;
 }
 
 #menu ul{
@@ -33,7 +38,8 @@ header .logo img{
 }
 
 #menu li:hover{
-  color: #1d8735;
+  color: #a2d686;
+  cursor: pointer;
 }
 
 #burger{
@@ -45,23 +51,24 @@ header .logo img{
   opacity: .8;
 }
 
+.text-header{
+  position: absolute;
+  top: 220px;
+  width: 100%;
+  color: white;
+  font-size: 50px;
+}
+
+.center-menu{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 @media all and (max-width: 780px) {
   #burger{
     display: inline-block;
   }
   
-  #menu{
-    position: fixed;
-    top: -10;
-    bottom: -10;
-    left: -5px;
-    width: 100%;
-    background: #0062ad;
-    font-size: 20px;
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-    box-sizing: border-box;
-  }
   
   #menu li{
     display: block;
