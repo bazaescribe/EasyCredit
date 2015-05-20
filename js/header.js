@@ -7,7 +7,6 @@ function scrollMenu(){
   menu  = document.getElementById("menu");
   color = document.getElementById("logo-color");
   white = document.getElementById("logo-white");
-  moto  = document.getElementById("moto");
   burger = document.getElementById("burger");
   
   if(top >= breakpoint){ //Cuando baja
@@ -16,7 +15,6 @@ function scrollMenu(){
     menu.style.color = "#5c666f";
     white.style.display = "none";
     color.style.display = "";
-    moto.style.color = "#5c666f";
     burger.style.color = "#5c666f";
   }else{ //Cuando sube
     head.style.backgroundColor = 'rgba(255, 255, 255, 0)';
@@ -24,7 +22,6 @@ function scrollMenu(){
     menu.style.color = "white";
     white.style.display = "";
     color.style.display = "none";
-    moto.style.color = "white";
     burger.style.color = "white";
   }
 }

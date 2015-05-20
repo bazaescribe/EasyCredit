@@ -13,6 +13,11 @@ header{
   box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
+.mover{
+  position: absolute;
+  z-index: 10;
+}
+
 header .logo{
   width: 200px;
   padding: 10px;
@@ -62,6 +67,17 @@ header .logo img{
 .center-menu{
   margin-left: 100px;
   margin-right: 100px;
+}
+
+.bg{
+  position: fixed;
+  width: 100%;
+  z-index: 0;
+}
+
+.bg img{
+  height: 100%;
+  width: 100%;
 }
 
 @media all and (max-width: 780px) {
